@@ -1,0 +1,349 @@
+[
+  {
+    "username": "ceo",
+    "dept": "Executive",
+    "title": "CEO",
+    "manager": "ceo",
+    "status": "active",
+    "last_login": "2026-10-13",
+    "created": "2019-01-10",
+    "mfa_enabled": true,
+    "entitlements": [
+      "reporting:view"
+    ]
+  },
+  {
+    "username": "jmorgan",
+    "dept": "Finance",
+    "title": "Finance Manager",
+    "manager": "ceo",
+    "status": "active",
+    "last_login": "2026-10-12",
+    "created": "2020-03-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "finance:approver",
+      "reporting:view",
+      "db:read"
+    ]
+  },
+  {
+    "username": "rkhan",
+    "dept": "Engineering",
+    "title": "Engineering Manager",
+    "manager": "ceo",
+    "status": "active",
+    "last_login": "2026-10-10",
+    "created": "2020-06-15",
+    "mfa_enabled": true,
+    "entitlements": [
+      "dev:deploy",
+      "git:write",
+      "db:read"
+    ]
+  },
+  {
+    "username": "slee",
+    "dept": "IT",
+    "title": "IT Manager",
+    "manager": "ceo",
+    "status": "active",
+    "last_login": "2026-10-09",
+    "created": "2019-11-20",
+    "mfa_enabled": true,
+    "entitlements": [
+      "aws:ReadOnly",
+      "it:config",
+      "helpdesk:manage"
+    ]
+  },
+  {
+    "username": "pwang",
+    "dept": "Sales",
+    "title": "Sales Manager",
+    "manager": "ceo",
+    "status": "active",
+    "last_login": "2026-10-11",
+    "created": "2021-02-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "crm:manage",
+      "reporting:view",
+      "db:read"
+    ]
+  },
+  {
+    "username": "aosei",
+    "dept": "Security",
+    "title": "Security Manager",
+    "manager": "ceo",
+    "status": "active",
+    "last_login": "2026-10-08",
+    "created": "2020-09-05",
+    "mfa_enabled": true,
+    "entitlements": [
+      "sec:investigate",
+      "siem:analyst",
+      "aws:ReadOnly"
+    ]
+  },
+  {
+    "username": "dgupta",
+    "dept": "HR",
+    "title": "HR Manager",
+    "manager": "ceo",
+    "status": "active",
+    "last_login": "2026-10-07",
+    "created": "2021-05-12",
+    "mfa_enabled": true,
+    "entitlements": [
+      "hr:manage",
+      "db:read"
+    ]
+  },
+  {
+    "username": "tnguyen",
+    "dept": "Finance",
+    "title": "Accountant",
+    "manager": "jmorgan",
+    "status": "active",
+    "last_login": "2026-03-01",
+    "created": "2022-01-10",
+    "mfa_enabled": true,
+    "entitlements": [
+      "finance:entry",
+      "db:read"
+    ]
+  },
+  {
+    "username": "bchen",
+    "dept": "Engineering",
+    "title": "Developer",
+    "manager": "rkhan",
+    "status": "disabled",
+    "last_login": "2026-10-05",
+    "created": "2021-07-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "dev:commit",
+      "git:write",
+      "db:read"
+    ]
+  },
+  {
+    "username": "rdavis",
+    "dept": "IT",
+    "title": "Sysadmin",
+    "manager": "slee",
+    "status": "active",
+    "last_login": "2026-10-01",
+    "created": "2020-08-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "aws:AdministratorAccess",
+      "db:*",
+      "it:config"
+    ]
+  },
+  {
+    "username": "lmartin",
+    "dept": "IT",
+    "title": "Cloud Engineer",
+    "manager": "slee",
+    "status": "active",
+    "last_login": "2026-09-20",
+    "created": "2022-03-15",
+    "mfa_enabled": false,
+    "entitlements": [
+      "aws:AdministratorAccess",
+      "db:read"
+    ]
+  },
+  {
+    "username": "skapoor",
+    "dept": "HR",
+    "title": "Recruiter",
+    "manager": "dgupta",
+    "status": "active",
+    "last_login": "2026-09-15",
+    "created": "2022-06-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "hr:manage",
+      "aws:ReadOnly"
+    ]
+  },
+  {
+    "username": "mwalsh",
+    "dept": "Finance",
+    "title": "AP Clerk",
+    "manager": "jmorgan",
+    "status": "active",
+    "last_login": "2026-09-25",
+    "created": "2021-09-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "ap:create",
+      "ap:approve",
+      "db:read"
+    ]
+  },
+  {
+    "username": "fsilva",
+    "dept": "Finance",
+    "title": "AP Clerk",
+    "manager": "jmorgan",
+    "status": "active",
+    "last_login": "2026-10-02",
+    "created": "2022-02-10",
+    "mfa_enabled": true,
+    "entitlements": [
+      "ap:create",
+      "db:read"
+    ]
+  },
+  {
+    "username": "okafor",
+    "dept": "Engineering",
+    "title": "DevOps Engineer",
+    "manager": "rkhan",
+    "status": "active",
+    "last_login": "2026-09-28",
+    "created": "2021-11-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "dev:deploy",
+      "prod:approve",
+      "git:write"
+    ]
+  },
+  {
+    "username": "mnovak",
+    "dept": "Sales",
+    "title": "Account Executive",
+    "manager": "tford",
+    "status": "active",
+    "last_login": "2026-10-03",
+    "created": "2022-04-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "crm:manage",
+      "reporting:view",
+      "db:read"
+    ]
+  },
+  {
+    "username": "kbrown",
+    "dept": "Sales",
+    "title": "SDR",
+    "manager": "",
+    "status": "active",
+    "last_login": "2026-10-04",
+    "created": "2023-01-15",
+    "mfa_enabled": true,
+    "entitlements": [
+      "crm:view",
+      "db:read"
+    ]
+  },
+  {
+    "username": "pstale",
+    "dept": "IT",
+    "title": "Contractor",
+    "manager": "slee",
+    "status": "active",
+    "last_login": null,
+    "created": "2024-05-01",
+    "mfa_enabled": false,
+    "entitlements": [
+      "helpdesk:view"
+    ]
+  },
+  {
+    "username": "awhite",
+    "dept": "Engineering",
+    "title": "Developer",
+    "manager": "rkhan",
+    "status": "active",
+    "last_login": "2026-10-06",
+    "created": "2023-03-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "dev:commit",
+      "git:write",
+      "db:read"
+    ]
+  },
+  {
+    "username": "hpark",
+    "dept": "Finance",
+    "title": "Analyst",
+    "manager": "jmorgan",
+    "status": "active",
+    "last_login": "2026-10-05",
+    "created": "2023-06-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "finance:entry",
+      "reporting:view",
+      "db:read"
+    ]
+  },
+  {
+    "username": "ttran",
+    "dept": "Sales",
+    "title": "Account Executive",
+    "manager": "pwang",
+    "status": "active",
+    "last_login": "2026-10-06",
+    "created": "2022-10-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "crm:manage",
+      "reporting:view"
+    ]
+  },
+  {
+    "username": "rfoster",
+    "dept": "Security",
+    "title": "Analyst",
+    "manager": "aosei",
+    "status": "active",
+    "last_login": "2026-10-07",
+    "created": "2022-12-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "sec:investigate",
+      "siem:analyst"
+    ]
+  },
+  {
+    "username": "ymehta",
+    "dept": "HR",
+    "title": "HR Generalist",
+    "manager": "dgupta",
+    "status": "active",
+    "last_login": "2026-10-02",
+    "created": "2023-08-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "hr:manage",
+      "db:read"
+    ]
+  },
+  {
+    "username": "glopez",
+    "dept": "Engineering",
+    "title": "QA Engineer",
+    "manager": "rkhan",
+    "status": "active",
+    "last_login": "2026-09-30",
+    "created": "2023-02-01",
+    "mfa_enabled": true,
+    "entitlements": [
+      "dev:test",
+      "git:write",
+      "db:read"
+    ]
+  }
+]

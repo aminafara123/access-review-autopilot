@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "access-review-autopilot"
+version = "0.1.0"
+description = "Automate user access reviews / access certification (SOX, SOC 2, ISO 27001) with a deterministic risk engine and an optional LLM narrative."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Al Amin Bashir Afara", email = "aminafara123@gmail.com" }]
+keywords = ["grc", "iam", "access-review", "access-certification", "sox", "soc2", "iso27001", "sod"]
+dependencies = []  # runtime is pure stdlib
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<9"]
+
+[project.scripts]
+access-review = "access_review.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["access_review"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

@@ -1,0 +1,25 @@
+username,dept,title,manager,status,last_login,created,mfa_enabled,entitlements
+ceo,Executive,CEO,ceo,active,2026-10-13,2019-01-10,true,reporting:view
+jmorgan,Finance,Finance Manager,ceo,active,2026-10-12,2020-03-01,true,finance:approver;reporting:view;db:read
+rkhan,Engineering,Engineering Manager,ceo,active,2026-10-10,2020-06-15,true,dev:deploy;git:write;db:read
+slee,IT,IT Manager,ceo,active,2026-10-09,2019-11-20,true,aws:ReadOnly;it:config;helpdesk:manage
+pwang,Sales,Sales Manager,ceo,active,2026-10-11,2021-02-01,true,crm:manage;reporting:view;db:read
+aosei,Security,Security Manager,ceo,active,2026-10-08,2020-09-05,true,sec:investigate;siem:analyst;aws:ReadOnly
+dgupta,HR,HR Manager,ceo,active,2026-10-07,2021-05-12,true,hr:manage;db:read
+tnguyen,Finance,Accountant,jmorgan,active,2026-03-01,2022-01-10,true,finance:entry;db:read
+bchen,Engineering,Developer,rkhan,disabled,2026-10-05,2021-07-01,true,dev:commit;git:write;db:read
+rdavis,IT,Sysadmin,slee,active,2026-10-01,2020-08-01,true,aws:AdministratorAccess;db:*;it:config
+lmartin,IT,Cloud Engineer,slee,active,2026-09-20,2022-03-15,false,aws:AdministratorAccess;db:read
+skapoor,HR,Recruiter,dgupta,active,2026-09-15,2022-06-01,true,hr:manage;aws:ReadOnly
+mwalsh,Finance,AP Clerk,jmorgan,active,2026-09-25,2021-09-01,true,ap:create;ap:approve;db:read
+fsilva,Finance,AP Clerk,jmorgan,active,2026-10-02,2022-02-10,true,ap:create;db:read
+okafor,Engineering,DevOps Engineer,rkhan,active,2026-09-28,2021-11-01,true,dev:deploy;prod:approve;git:write
+mnovak,Sales,Account Executive,tford,active,2026-10-03,2022-04-01,true,crm:manage;reporting:view;db:read
+kbrown,Sales,SDR,,active,2026-10-04,2023-01-15,true,crm:view;db:read
+pstale,IT,Contractor,slee,active,,2024-05-01,false,helpdesk:view
+awhite,Engineering,Developer,rkhan,active,2026-10-06,2023-03-01,true,dev:commit;git:write;db:read
+hpark,Finance,Analyst,jmorgan,active,2026-10-05,2023-06-01,true,finance:entry;reporting:view;db:read
+ttran,Sales,Account Executive,pwang,active,2026-10-06,2022-10-01,true,crm:manage;reporting:view
+rfoster,Security,Analyst,aosei,active,2026-10-07,2022-12-01,true,sec:investigate;siem:analyst
+ymehta,HR,HR Generalist,dgupta,active,2026-10-02,2023-08-01,true,hr:manage;db:read
+glopez,Engineering,QA Engineer,rkhan,active,2026-09-30,2023-02-01,true,dev:test;git:write;db:read

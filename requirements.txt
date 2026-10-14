@@ -1,0 +1,3 @@
+# Runtime: none (pure Python stdlib).
+# Dev/test only:
+pytest>=7,<9

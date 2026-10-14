@@ -1,0 +1,5 @@
+[
+  ["ap:create", "ap:approve"],
+  ["dev:deploy", "prod:approve"],
+  ["finance:vendor_create", "finance:payment_approve"]
+]

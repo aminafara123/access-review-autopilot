@@ -1,0 +1,8 @@
+{
+  "Finance": ["finance:", "ap:", "db:read", "reporting:"],
+  "Engineering": ["dev:", "db:read", "db:write", "aws:ReadOnly", "git:"],
+  "IT": ["aws:", "db:", "it:", "helpdesk:"],
+  "HR": ["hr:", "db:read"],
+  "Sales": ["crm:", "reporting:", "db:read"],
+  "Security": ["sec:", "siem:", "aws:ReadOnly"]
+}
